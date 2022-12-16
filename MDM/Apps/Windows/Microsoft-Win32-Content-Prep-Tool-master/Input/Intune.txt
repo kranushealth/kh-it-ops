@@ -1,7 +1,0 @@
-.\IntuneWinAppUtil.exe -c \\Mac\Home\Downloads\Microsoft-Win32-Content-Prep-Tool-master\Input -s Wallpaper.jpg -o \\Mac\Home\Downloads\Microsoft-Win32-Content-Prep-Tool-master\Output
-
-
-Install Command: powershell.exe -ExecutionPolicy Bypass -File DeployWallpaper.ps1
-Uninstall Command: powershell.exe -ExecutionPolicy Bypass -File DeleteWallpaper.ps1 
-
-Detection Rule: C:\Kranus Health\Wallpaper\Wallpaper.png

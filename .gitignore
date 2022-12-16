@@ -1,0 +1,8 @@
+# ignore all files in directory Apps
+Apps/**
+
+#ignore all files in directory Scripts
+Scripts/**
+
+#ignore all files in directory UI
+UI/**

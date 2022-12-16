@@ -1,8 +1,8 @@
 # ignore all files in directory Apps
-Apps/**
+Apps/*
 
 #ignore all files in directory Scripts
-Scripts/**
+Scripts/*
 
 #ignore all files in directory UI
-UI/**
+UI/*

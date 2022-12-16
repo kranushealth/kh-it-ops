@@ -1,7 +1,7 @@
-#Create the folder KranusHealth in C:\
-New-Item -Name "KranusHealth" -ItemType Directory -Path "C:\"
+#Create the folder _MEM in C:\
+New-Item -Name "_MEM" -ItemType Directory -Path "C:\"
 #Copies the Wallpaper from GitHub project kh-it-ops
-Invoke-WebRequest -Uri "https://github.com/kranushealth/kh-it-ops/raw/main/Wallpaper.jpg" -OutFile "C:\KranusHealth\Wallpaper.jpg"
+Invoke-WebRequest -Uri "https://github.com/kranushealth/kh-it-ops/raw/main/MDM/KranusHealth.jpg" -OutFile "C:\_MEM\Wallpaper\KranusHealth.jpg"
 
 
 Function Set-WallPaper($Value) {
@@ -24,4 +24,4 @@ Function Set-WallPaper($Value) {
 	Set-Itemproperty -path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel' -Name '{20D04FE0-3AEA-1069-A2D8-08002B30309D}' -Value 0 
 }
 
-Set-WallPaper -Value "C:\KranusHealth\Wallpaper.jpg"
+Set-WallPaper -Value "C:\_MEM\Wallpaper\KranusHealth.jpg"

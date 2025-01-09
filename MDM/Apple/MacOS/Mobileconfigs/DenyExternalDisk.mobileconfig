@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>SystemUI Server</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.systemuiserver.BC22F28E-2D31-4F9F-9747-320DA01DDE4D</string>
+			<key>PayloadType</key>
+			<string>com.apple.systemuiserver</string>
+			<key>PayloadUUID</key>
+			<string>BC22F28E-2D31-4F9F-9747-320DA01DDE4D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>mount-controls</key>
+			<dict>
+				<key>harddisk-external</key>
+				<array>
+					<string>deny</string>
+					<string>eject</string>
+					<string>alert</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>DenyExternalDisk</string>
+	<key>PayloadIdentifier</key>
+	<string>Kranus.05DC16C6-F838-4ABF-9949-0C0D8157A7FA</string>
+	<key>PayloadOrganization</key>
+	<string>Kranus Health GmbH</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>05DC16C6-F838-4ABF-9949-0C0D8157A7FA</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

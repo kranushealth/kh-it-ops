@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HasRemovalPasscode</key>
+	<false/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>DisableAssociationMACRandomization</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>jPYR-Vbmi-hvzD-XTT3</string>
+			<key>PayloadDescription</key>
+			<string>Konfiguriert WLAN-Einstellungen</string>
+			<key>PayloadDisplayName</key>
+			<string>WLAN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.417F629C-80D3-4D73-A5CD-41E222AA8F4C</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>417F629C-80D3-4D73-A5CD-41E222AA8F4C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>Kranus-Emergency</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Add Kranus-Emergency as WiFi</string>
+	<key>PayloadDisplayName</key>
+	<string>WiFi-Kranus-Emergency</string>
+	<key>PayloadIdentifier</key>
+	<string>Kranus.970AF5A1-96C6-4258-8E0D-052B18ECB522</string>
+	<key>PayloadOrganization</key>
+	<string>Kranus Health GmbH</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>390DD93A-AB02-4694-B172-B383B6DBF1F2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

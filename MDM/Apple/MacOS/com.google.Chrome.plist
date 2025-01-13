@@ -1,0 +1,75 @@
+<key>ShowHomeButton</key>
+    <true />
+<key>RestoreOnStartup</key>
+    <integer>1</integer>
+<key>ComponentUpdatesEnabled</key>
+    <true />
+<key>ExtensionInstallForcelist</key>
+    <array>
+        <string>ppnbnpeolgkicgegkbkbjmhlideopiji;https://clients2.google.com/service/update2/crx</string> /* MS SSO Extension */
+        <string>aeblfdkhhhdcdjpifhhbdiojplfjncoa;https://clients2.google.com/service/update2/crx</string> /* 1Password Extension */
+    </array>
+
+<key>ExtensionSettings</key>
+<dict>
+      <key>ppnbnpeolgkicgegkbkbjmhlideopiji</key>  /* MS SSO Extension */
+      <dict>
+        <key>toolbar_pin</key>
+        <string>force_pinned</string>
+      </dict>
+       <key>aeblfdkhhhdcdjpifhhbdiojplfjncoa</key>  /* 1Password Extension */
+      <dict>
+        <key>toolbar_pin</key>
+        <string>force_pinned</string>
+      </dict>
+</dict>
+
+<key>ManagedBookmarks</key>
+    <array>
+        <dict>
+            <key>toplevel_name</key>
+            <string>Kranus Health Tools</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Microsoft - My Portal</string>
+            <key>url</key>
+            <string>https://myapps.microsoft.com</string>
+        </dict>
+         <dict>
+            <key>name</key>
+            <string>Microsoft - Outlook</string>
+            <key>url</key>
+            <string>https://outlook.office.com/mail</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Microsoft - OneDrive</string>
+            <key>url</key>
+            <string>https://kranus-my.sharepoint.com</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>IT Suport - Knowledge Base</string>
+            <key>url</key>
+            <string>https://kranushealth.atlassian.net/wiki/spaces/KHC/overview</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>IT Suport - Service Desk</string>
+            <key>url</key>
+            <string>https://kranushealth.atlassian.net/servicedesk/customer/portals/</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>1Password</string>
+            <key>url</key>
+            <string>https://kranushealth.1password.com</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Personio</string>
+            <key>url</key>
+            <string>https://kranus-health-gmbh.personio.de/login/index</string>
+        </dict>
+    </array>
